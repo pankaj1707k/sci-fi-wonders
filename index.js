@@ -48,9 +48,9 @@ loopElements();
 function isElementInViewport(element){
     var rect = element.getBoundingClientRect();
     return (
-        rect.top >= 20 &&
+        rect.top >= 0 &&
         rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight - 10 || document.documentElement.clientHeight) &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right<= (window.innerWidth || document.documentElement.clientWidth)
     )
 // document.documentElement.clientHeight & clientWidth are for browsers that do not support window.innerHeight & innerWidth properties

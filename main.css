@@ -15,6 +15,33 @@
 }
 /* Animation end  */
 
+/* Media Queries */
+@media only screen and (max-width: 992px)
+{
+    html{
+        font-size: 65%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    html{
+        font-size: 56%;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    html{
+        font-size: 40%;
+    }
+}
+@media only screen and (min-width: 1600px)
+{
+    html{
+        font-size: 80%;
+    }
+}
+/* Media queries end */
+
 *{
     padding: 0;
     margin: 0;
@@ -109,7 +136,7 @@ a{
     border-style: solid;
     border-width: thin;
     width: 70%;
-    height: 5%;
+    min-height: 5%;
     padding-top: 2rem;
     text-align: center;
 }
@@ -138,6 +165,7 @@ a{
     margin-bottom: 4rem;
 }
 .content{
+    width: 100%;
     display: grid;
     column-count: 2;
     column-gap: 6rem;
