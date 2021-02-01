@@ -186,6 +186,13 @@ a{
 }
 
 /* Media Queries */
+@media only screen and (max-width: 1200px)
+{
+    html{
+        font-size: 88%;
+    }
+}
+
 @media only screen and (max-width: 992px)
 {
     html{
