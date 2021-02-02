@@ -163,15 +163,15 @@ a{
     align-items: center;
     justify-content: center;
     font-family: 'Tangerine', cursive;
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #2B3030;
     background-color: #f8f8ff;
     visibility: hidden;
 }
 .visible{
     animation-name: card_text_appear;
-    animation-duration: 1s;
-    animation-delay: 250ms;
+    animation-duration: 0.75s;
+    animation-delay: 200ms;
     animation-fill-mode: forwards;
 }
 .scroll-up{
